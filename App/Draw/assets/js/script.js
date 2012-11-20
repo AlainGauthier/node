@@ -7,7 +7,7 @@ $(function(){
 	}
 
 	// The URL of your web server (the port is set in app.js)
-	var url =  +process.env.IP;
+	var url =  +process.env.IP + ":" + process.env.PORT;
 
 	var doc = $(document),
 		win = $(window),
