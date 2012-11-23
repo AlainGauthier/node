@@ -1,0 +1,2 @@
+{"ts":1353473124299,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1353473501026,"patch":[[{"diffs":[[1,"{\r\n  \"name\": \"draw2\",\r\n  \"version\": \"0.0.1\",\r\n  \"dependencies\": {\r\n    \"node-static\": \"0.6.5\",\r\n    \"socket.io\": \"0.9.11\"\r\n  },\r\n  \"engines\": {\r\n    \"node\": \"0.8.x\",\r\n    \"npm\": \"1.1.x\"\r\n  }\r\n}"]],"start1":0,"start2":0,"length1":0,"length2":193}]],"length":193,"saved":false}

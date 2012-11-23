@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/var/lib/openshift/90d5b331eb94458686b43724a49c3c08/app-root/data//bin/node-openshift',
+1 verbose cli   '/var/lib/stickshift/90d5b331eb94458686b43724a49c3c08/app-root/data/lib/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'owner',
+1 verbose cli   'ls',
+1 verbose cli   'draw2' ]
+2 info using npm@1.1.62
+3 info using node@v0.6.21
+4 verbose node symlink /var/lib/openshift/90d5b331eb94458686b43724a49c3c08/app-root/data//bin/node-openshift
+5 verbose url raw draw2
+6 verbose url resolving [ 'https://registry.npmjs.org/', './draw2' ]
+7 verbose url resolved https://registry.npmjs.org/draw2
+8 info trying registry request attempt 1 at 12:24:51
+9 http GET https://registry.npmjs.org/draw2
+10 http 404 https://registry.npmjs.org/draw2
+11 silly registry.get cb [ 404,
+11 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+11 silly registry.get     date: 'Thu, 22 Nov 2012 17:24:21 GMT',
+11 silly registry.get     'content-type': 'application/json',
+11 silly registry.get     'content-length': '52',
+11 silly registry.get     'cache-control': 'must-revalidate' } ]
+12 error owner ls Couldn't get owner data draw2
+13 error 404 'draw2' is not in the npm registry.
+13 error 404 You should bug the author to publish it
+13 error 404
+13 error 404 Note that you can also install from a
+13 error 404 tarball, folder, or http url, or git url.
+14 error System Linux 2.6.32-279.14.1.el6.x86_64
+15 error command "/var/lib/openshift/90d5b331eb94458686b43724a49c3c08/app-root/data//bin/node-openshift" "/var/lib/stickshift/90d5b331eb94458686b43724a49c3c08/app-root/data/lib/node_modules/npm/bin/npm-cli.js" "owner" "ls" "draw2"
+16 error cwd /var/lib/stickshift/90d5b331eb94458686b43724a49c3c08/app-root/data/332916
+17 error node -v v0.6.21
+18 error npm -v 1.1.62
+19 error code E404
+20 verbose exit [ 1, true ]
